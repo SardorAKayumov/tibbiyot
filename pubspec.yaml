@@ -1,0 +1,46 @@
+name: tibbiyot
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.0.17
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/instruments/
+    - assets/fonts/
+
+  fonts:
+    - family: Tisa Sans Pro
+      fonts:
+        - asset: assets/fonts/Tisa Sans Pro ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Tisa Sans Pro Light.ttf
+          weight: 300
+        - asset: assets/fonts/Tisa Sans Pro Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tisa Sans Pro Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tisa Sans Pro Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tisa Sans Pro ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Tisa Sans Pro Black.ttf
+          weight: 900
