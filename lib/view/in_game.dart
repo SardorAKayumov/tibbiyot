@@ -217,7 +217,10 @@ class _InGameViewState extends State<InGameView> {
                                       '',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                color: const Color(0xFF482319),
+                                color: isCorrectInstrument
+                                    ? const Color.fromARGB(255, 22, 116, 49)
+                                    : const Color.fromARGB(255, 180, 51, 29),
+                                // color: const Color(0xFF482319),
                                 fontSize: (widget.languageCode == 'ru'
                                         ? 18.sp
                                         : 20.sp) *
